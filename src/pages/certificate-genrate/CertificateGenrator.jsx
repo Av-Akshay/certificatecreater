@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./certificatesGenerate.css";
+import CreateCertificate from "../../components/add-comonents/CreateCertificate";
 
 const CertificateGenrator = () => {
+  const [popup, setPopup] = useState(true);
+
   let showCandites = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
     <div className="certificates_holder">
       <div className="Certificate_Genrator">
+        {popup ? <CreateCertificate /> : null}
         <div className="entries">
           <div className="generate_certificate">
             <button className="certificate_generate_btn">

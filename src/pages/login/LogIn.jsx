@@ -11,11 +11,6 @@ const LogIn = () => {
           <form className="log_in_form">
             <input
               className="login_input_filds"
-              type="text"
-              placeholder="Username"
-            />
-            <input
-              className="login_input_filds"
               type="email"
               placeholder="Username Email"
             />

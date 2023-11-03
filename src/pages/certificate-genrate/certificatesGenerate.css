@@ -1,6 +1,7 @@
 .certificates_holder {
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 .Certificate_Genrator {
   width: 98vw;

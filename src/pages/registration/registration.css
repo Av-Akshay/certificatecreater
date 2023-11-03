@@ -1,0 +1,75 @@
+.reg_form {
+  display: flex;
+  width: 65%;
+  height: 70vh;
+  margin: auto;
+}
+.form {
+  width: 50%;
+  color: #fff;
+  background-color: #fff;
+  padding: 2.5rem;
+}
+.form h1 {
+  text-align: center;
+}
+.form form {
+  display: grid;
+  grid-template-rows: 0.8fr 1fr 0.8fr;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+}
+.input_filds {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+.input_fild {
+  font-size: 2rem;
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.input_fild input {
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 2rem;
+}
+.btn {
+  cursor: pointer;
+  margin: auto;
+  padding: 0.8rem 2.2rem;
+  color: white;
+  background-color: #363636;
+  border-radius: 0.5rem;
+  border: 1px solid #363636;
+  outline: none;
+  transition: all 0.3s linear;
+}
+.btn:hover {
+  border: 1px solid #fff;
+}
+.registration_form_img {
+  font-size: 1.8rem;
+  color: white;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  background: url(../../assests/regImage.jpg);
+  grid-template-rows: repeat(2 1fr);
+  background-size: cover;
+  background-position: center;
+}
+.registration_form_img img {
+  width: 100%;
+  height: 100%;
+}

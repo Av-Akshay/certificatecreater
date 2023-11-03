@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login_form {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../assests/regImage.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lofin_form_heading {
+  font-size: 3rem;
+  color: white;
+}
+.loggedin {
+  height: 60vh;
+  width: 50vw;
+  border-radius: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 10px black;
+  background: rgba(192, 192, 192, 0.3);
+}
+.item1 {
+  margin-top: 5rem;
+}
+.log_in_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.login_input_filds {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+}
+.forgote_password {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.item2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.item2 p {
+  font-size: 1.5rem;
+  color: white;
+}
+.btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+}

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./certificatesGenerate.css";
-import CreateCertificate from "../../components/add-comonents/CreateCertificate";
+import CreateCertificate from "../../components/create-certificate/CreateCertificate";
 
-const CertificateGenrator = () => {
+const CertificateGenerator = () => {
   const [popup, setPopup] = useState(true);
 
-  let showCandites = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let showCandidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
     <div className="certificates_holder">
-      <div className="Certificate_Genrator">
+      <div className="Certificate_Generator">
         {popup ? <CreateCertificate /> : null}
         <div className="entries">
           <div className="generate_certificate">
@@ -16,11 +16,11 @@ const CertificateGenrator = () => {
               Generate Certificate
             </button>
           </div>
-          <div className="show_canditate">
+          <div className="show_candidates">
             <div>
               <label> Show </label>
               <select>
-                {showCandites.map((item) => {
+                {showCandidates.map((item) => {
                   return (
                     <option key={item} value={item}>
                       {item}
@@ -42,7 +42,7 @@ const CertificateGenrator = () => {
               <tr>
                 <th>S.no.</th>
                 <th>Name</th>
-                <th>Designatiom</th>
+                <th>Designation</th>
                 <th>Form</th>
                 <th>To</th>
                 <th>UID</th>
@@ -59,4 +59,4 @@ const CertificateGenrator = () => {
   );
 };
 
-export default CertificateGenrator;
+export default CertificateGenerator;

@@ -3,7 +3,7 @@
   height: 100vh;
   position: relative;
 }
-.Certificate_Genrator {
+.Certificate_Generator {
   width: 98vw;
   height: 100vh;
   display: flex;
@@ -27,8 +27,12 @@
 .certificate_generate_btn:hover {
   transform: scale(1.03);
 }
-.show_canditate {
+.show_candidates {
   font-size: 1.5rem;
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
 }
 .certificate_holder_table table {
   width: 100%;

@@ -1,0 +1,10 @@
+.login_input_field {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+}
+.input_border {
+  border: 0.1px solid black;
+}
